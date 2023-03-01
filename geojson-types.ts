@@ -6,7 +6,7 @@ export type RoPosition = readonly [number, number, ...number[]];
 /**
  * Readonly type definition for a GeoJSON LinearRing.
  */
-export type RoLinearRing = [RoPosition, RoPosition, RoPosition, RoPosition, ...RoPosition[]];
+export type RoLinearRing = readonly [RoPosition, RoPosition, RoPosition, RoPosition, ...RoPosition[]];
 
 /**
  * Readonly type definition for a GeoJSON BoundingBox.
@@ -26,7 +26,7 @@ interface RoObject {
     readonly bbox?: RoBoundingBox;
 
     // the specification allows foreign members
-    readonly [key: string]: any
+    readonly [key: string]: any;
 }
 
 /**
