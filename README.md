@@ -4,10 +4,10 @@ Readonly interface and type definitions for GeoJSON objects according to RFC 794
 Tested with TypeScript 4.8.4.
 
 ## Sources
-- geojson-types.ts
+- [geojson-types.ts](geojson-types.ts)
 
 ## Example GeoJSON data
-- example-data.ts
+- [example-data.ts](example-data.ts)
 
 ## Links
 - [TypeScript Language](https://www.typescriptlang.org/)
